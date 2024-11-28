@@ -17,13 +17,6 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-< HEAD
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial arquitectura 
-          </Link>
-
         <p className={styles.cardText}>
         Los patrones de comportamiento tratan con algoritmos y la asignación 
         de responsabilidades entre objetos y se caracterizan por un complejo 
@@ -49,12 +42,12 @@ function HomepageHeader() {
         de responsabilidades entre clases y objetos, mejorando la claridad y
          mantenibilidad del diseño.
         </p>
-
         </div>
       </div>
     </header>
   );
 }
+
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
