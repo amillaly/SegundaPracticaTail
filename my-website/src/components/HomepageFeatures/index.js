@@ -18,7 +18,11 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-       Hola a todos<code>docs</code> directory.
+       Es un patrón de diseño de comportamiento que convierte una solicitud en un 
+       objeto independiente que contiene toda la información sobre la solicitud. 
+       Esta transformación te permite parametrizar los métodos con diferentes 
+       solicitudes, retrasar o poner en cola la ejecución de una solicitud y soportar
+        operaciones que no se pueden realizar.
       </>
     ),
   },
@@ -57,8 +61,9 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Es un patrón de diseño de comportamiento que te permite definir un mecanismo
+        de suscripción para notificar a varios objetos sobre cualquier evento que le
+         suceda al objeto que están observando.
       </>
     ),
   },
@@ -67,8 +72,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Diseño de comportamiento que permite a un objeto alterar su comportamiento 
+        cuando su estado interno cambia. Parece como si el objeto cambiara su clase.
       </>
     ),
   },{
@@ -76,8 +81,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Diseño de comportamiento que te permite definir una familia de algoritmos,
+         colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables.
       </>
     ),
   },{
