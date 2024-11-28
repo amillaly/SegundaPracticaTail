@@ -24,9 +24,9 @@ const FeatureList = [
        solicitudes, retrasar o poner en cola la ejecución de una solicitud y soportar
         operaciones que no se pueden realizar.
 
-      Aplicabilidad:
-      Utiliza el patrón Command cuando quieras poner operaciones en cola, programar 
-      su ejecución, o ejecutarlas de forma remota.
+      Aquí tienes un ejemplo: estás desarrollando un componente GUI, como un menú contextual,
+       y quieres que los usuarios puedan configurar opciones del menú que activen operaciones
+        cuando un usuario final haga clic sobre ellos.
       </>
     ),
   },
