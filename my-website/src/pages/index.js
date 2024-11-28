@@ -37,7 +37,7 @@ function HomepageHeader() {
         3. Encapsulación de algoritmos y comportamiento: Permiten encapsular
          algoritmos y comportamientos para su reutilización en diferentes contextos.
 
-        4. Distribución de responsabilidades**: Promueven la asignación clara 
+        4. Distribución de responsabilidades: Promueven la asignación clara 
         de responsabilidades entre clases y objetos, mejorando la claridad y
          mantenibilidad del diseño.
         </p>
