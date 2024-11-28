@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Command',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/imasvg.svg').default,
     description: (
       <>
        Es un patrón de diseño de comportamiento que convierte una solicitud en un 
@@ -62,7 +62,7 @@ const FeatureList = [
   },
   {
     title: 'Observer',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/imgob.svg').default,
     description: (
       <>
         Es un patrón de diseño de comportamiento que te permite definir un mecanismo
@@ -77,7 +77,7 @@ const FeatureList = [
   },
   {
     title: 'State',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/imastate.svg').default,
     description: (
       <>
         Diseño de comportamiento que permite a un objeto alterar su comportamiento 
@@ -92,7 +92,7 @@ const FeatureList = [
     ),
   },{
     title: 'Strategy',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/imastrategy.svg').default,
     description: (
       <>
         Diseño de comportamiento que te permite definir una familia de algoritmos,
