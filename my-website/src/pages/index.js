@@ -41,9 +41,6 @@ function HomepageHeader() {
         4. Distribución de responsabilidades: Promueven la asignación clara 
         de responsabilidades entre clases y objetos, mejorando la claridad y
          mantenibilidad del diseño.
-         4. Distribución de responsabilidades: Promueven la asignación clara 
-        de responsabilidades entre clases y objetos, mejorando la claridad y
-         mantenibilidad del diseño.
         </p>
         </div>
       </div>
