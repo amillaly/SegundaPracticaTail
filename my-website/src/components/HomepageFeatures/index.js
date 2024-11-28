@@ -8,8 +8,9 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Es un patrón de diseño de comportamiento que te permite pasar solicitudes 
+        a lo largo de una cadena de manejadores. Al recibir una solicitud, 
+        cada manejador decide si la procesa o si la pasa al siguiente manejador de la cadena.
       </>
     ),
   },
@@ -35,8 +36,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Es un patrón de diseño de comportamiento que te permite recorrer 
+        elementos de una colección sin exponer su representación subyacente (lista, pila, árbol, etc.).
       </>
     ),
   },
@@ -45,8 +46,9 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        es un patrón de diseño de comportamiento que te permite reducir las dependencias caóticas entre objetos.
+         El patrón restringe las comunicaciones directas entre los objetos, forzándolos a colaborar únicamente
+        a través de un objeto mediador.
       </>
     ),
   },
