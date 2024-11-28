@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Command',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/imasvg.svg').default,
     description: (
       <>
        Es un patrón de diseño de comportamiento que convierte una solicitud en un 
@@ -24,6 +24,10 @@ const FeatureList = [
        Esta transformación te permite parametrizar los métodos con diferentes 
        solicitudes, retrasar o poner en cola la ejecución de una solicitud y soportar
         operaciones que no se pueden realizar.
+
+      Aquí tienes un ejemplo: estás desarrollando un componente GUI, como un menú contextual,
+       y quieres que los usuarios puedan configurar opciones del menú que activen operaciones
+        cuando un usuario final haga clic sobre ellos.
       </>
     ),
   },
@@ -60,31 +64,45 @@ const FeatureList = [
   },
   {
     title: 'Observer',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/imgob.svg').default,
     description: (
       <>
         Es un patrón de diseño de comportamiento que te permite definir un mecanismo
         de suscripción para notificar a varios objetos sobre cualquier evento que le
          suceda al objeto que están observando.
+
+         Aplicabilidad:
+         Utiliza el patrón cuando algunos objetos de tu aplicación deban observar a 
+         otros, pero sólo durante un tiempo limitado o en casos específicos.
       </>
     ),
   },
   {
     title: 'State',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/imastate.svg').default,
     description: (
       <>
         Diseño de comportamiento que permite a un objeto alterar su comportamiento 
         cuando su estado interno cambia. Parece como si el objeto cambiara su clase.
+
+        Aplicabilidad:
+        Utiliza el patrón cuando tengas una clase contaminada con enormes condicionales
+        que alteran el modo en que se comporta la clase de acuerdo con los valores actuales
+        de los campos de la clase.
       </>
+      
     ),
   },{
     title: 'Strategy',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/imastrategy.svg').default,
     description: (
       <>
         Diseño de comportamiento que te permite definir una familia de algoritmos,
          colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables.
+
+         Aplicabilidad:
+         Utiliza el patrón Strategy cuando tengas muchas clases similares que sólo se 
+         diferencien en la forma en que ejecutan cierto comportamiento.
       </>
     ),
   },{
