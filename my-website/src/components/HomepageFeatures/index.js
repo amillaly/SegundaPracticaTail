@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Chain of Responsibility',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/respo.svg').default,
     description: (
       <>
         Es un patrón de diseño de comportamiento que te permite pasar solicitudes 
@@ -33,7 +33,7 @@ const FeatureList = [
   },
   {
     title: 'Iterator',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/iterator.svg').default,
     description: (
       <>
         Es un patrón de diseño de comportamiento que te permite recorrer 
@@ -43,7 +43,7 @@ const FeatureList = [
   },
   {
     title: 'Mediator',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/mediator.svg').default,
     description: (
       <>
         es un patrón de diseño de comportamiento que te permite reducir las dependencias caóticas entre objetos.
@@ -134,11 +134,12 @@ function Feature({Svg, title, description}) {
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <p className={styles.featureText}>{description}</p>
       </div>
     </div>
   );
 }
+
 
 export default function HomepageFeatures() {
   return (
