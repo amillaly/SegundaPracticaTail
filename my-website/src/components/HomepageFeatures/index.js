@@ -23,6 +23,10 @@ const FeatureList = [
        Esta transformación te permite parametrizar los métodos con diferentes 
        solicitudes, retrasar o poner en cola la ejecución de una solicitud y soportar
         operaciones que no se pueden realizar.
+
+      Aplicabilidad:
+      Utiliza el patrón Command cuando quieras poner operaciones en cola, programar 
+      su ejecución, o ejecutarlas de forma remota.
       </>
     ),
   },
@@ -64,6 +68,10 @@ const FeatureList = [
         Es un patrón de diseño de comportamiento que te permite definir un mecanismo
         de suscripción para notificar a varios objetos sobre cualquier evento que le
          suceda al objeto que están observando.
+
+         Aplicabilidad:
+         Utiliza el patrón cuando algunos objetos de tu aplicación deban observar a 
+         otros, pero sólo durante un tiempo limitado o en casos específicos.
       </>
     ),
   },
@@ -74,7 +82,13 @@ const FeatureList = [
       <>
         Diseño de comportamiento que permite a un objeto alterar su comportamiento 
         cuando su estado interno cambia. Parece como si el objeto cambiara su clase.
+
+        Aplicabilidad:
+        Utiliza el patrón cuando tengas una clase contaminada con enormes condicionales
+        que alteran el modo en que se comporta la clase de acuerdo con los valores actuales
+        de los campos de la clase.
       </>
+      
     ),
   },{
     title: 'Strategy',
@@ -83,6 +97,10 @@ const FeatureList = [
       <>
         Diseño de comportamiento que te permite definir una familia de algoritmos,
          colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables.
+
+         Aplicabilidad:
+         Utiliza el patrón Strategy cuando tengas muchas clases similares que sólo se 
+         diferencien en la forma en que ejecutan cierto comportamiento.
       </>
     ),
   },{
