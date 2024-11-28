@@ -17,11 +17,13 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - holaaa
-          </Link>
+        <p className="button button--secondary button--lg">
+        Los patrones de diseño de comportamiento se caracterizan por un complejo 
+        control de flujo, el cual es difícil manejar en tiempo de ejecución, 
+        por lo que se provoca que el enfoque se cambie lejos del control de flujo 
+        para concentrarse exclusivamente en la manera en la que los objetos se comunican.
+        </p>
+
         </div>
       </div>
     </header>
