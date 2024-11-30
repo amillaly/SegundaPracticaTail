@@ -133,6 +133,7 @@ const FeatureList = [
          Utiliza el patrón Strategy cuando tengas muchas clases similares que sólo se 
          diferencien en la forma en que ejecutan cierto comportamiento.
 
+
       </>
     ),
   },{
