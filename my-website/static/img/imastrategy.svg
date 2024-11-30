@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="350px" viewBox="0 0 600 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>strategy-pattern</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="strategy-pattern">
+            <g id="context" transform="translate(54.000000, 35.000000)">
+                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="175" height="109"></rect>
+                <rect id="Rectangle-2" stroke="#979797" x="0.5" y="0.5" width="175" height="24"></rect>
+                <path d="M1.546875,50.5 L175.453125,50.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                <text id="+-setStrategy(strate" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="4" y="70">+ setStrategy(strategy)</tspan>
+                </text>
+                <text id="+-performAction()" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="4" y="91">+ performAction()</tspan>
+                </text>
+                <text id="--strategy" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="6" y="42">- strategy</tspan>
+                </text>
+                <text id="Context" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#000000">
+                    <tspan x="58.7226562" y="17">Context</tspan>
+                </text>
+            </g>
+            <g id="strategy" transform="translate(375.000000, 35.000000)">
+                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="160" height="98"></rect>
+                <rect id="Rectangle-2" stroke="#979797" x="0.5" y="0.5" width="160" height="60"></rect>
+                <text id="&lt;&lt;interface&gt;&gt;" font-family="Arial-ItalicMT, Arial" font-size="16" font-style="italic" font-weight="normal" fill="#000000">
+                    <tspan x="31.6289062" y="24">&lt;&lt;interface&gt;&gt;</tspan>
+                </text>
+                <text id="+-run()" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="5" y="83">+ run()</tspan>
+                </text>
+                <text id="Strategy" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#000000">
+                    <tspan x="48.9882812" y="49">Strategy</tspan>
+                </text>
+            </g>
+            <g id="concrete-strategies" transform="translate(366.000000, 218.000000)">
+                <g id="concrete-strategy-1">
+                    <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="179" height="62"></rect>
+                    <rect id="Rectangle-2" stroke="#979797" x="0.5" y="0.5" width="179" height="31"></rect>
+                    <text id="+-run()" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                        <tspan x="4" y="52">+ run()</tspan>
+                    </text>
+                    <text id="ConcreteStrategy1" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#000000">
+                        <tspan x="18.6632812" y="20">ConcreteStrategy1</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="strategy-concrete-strategy-arrow" transform="translate(450.000000, 134.000000)" stroke="#000000">
+                <g id="implementation" transform="translate(5.500000, 42.500000) rotate(-90.000000) translate(-5.500000, -42.500000) translate(-37.000000, 37.000000)">
+                    <path d="M74.5,0.811753874 L74.5,10.1937148 L83.8819609,5.53818641 L74.5,0.811753874 Z" id="Rectangle-3"></path>
+                    <path d="M0.5,5.5 L73.5701539,5.5" id="Line" stroke-linecap="square" stroke-dasharray="3"></path>
+                </g>
+            </g>
+            <g id="context-strategy-arrow" transform="translate(230.000000, 70.000000)" stroke="#000000">
+                <g id="aggregation" transform="translate(63.000000, 5.500000) scale(-1, 1) translate(-63.000000, -5.500000) ">
+                    <path d="M0.465217391,5.5 L106.600056,5.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M116,0.570635611 L107.037519,5.5 L116,10.4293644 L124.962481,5.5 L116,0.570635611 Z" id="Rectangle-4"></path>
+                </g>
+                <g id="association" transform="translate(19.000000, 4.000000)" stroke-linecap="square" stroke-linejoin="round">
+                    <path d="M0.547826087,1.5 L125.529038,1.5" id="Line"></path>
+                    <path id="Line-decoration-1" d="M114.729038,4.5 L125.529038,1.5 L114.729038,-1.5"></path>
+                </g>
+            </g>
+            <g id="client" transform="translate(97.000000, 236.000000)">
+                <rect id="Rectangle-5" stroke="#979797" x="0.5" y="0.5" width="105" height="27"></rect>
+                <text id="Client" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#000000">
+                    <tspan x="31.2773438" y="18">Client</tspan>
+                </text>
+            </g>
+            <g id="context-client-arrow" transform="translate(147.000000, 145.000000)" stroke-linecap="square" stroke="#000000" stroke-linejoin="round">
+                <g id="association" transform="translate(1.500000, 46.000000) rotate(-90.000000) translate(-1.500000, -46.000000) translate(-44.500000, 44.500000)">
+                    <path d="M0.5,1.5 L91.5494371,1.5" id="Line"></path>
+                    <path id="Line-decoration-1" d="M80.7494371,4.5 L91.5494371,1.5 L80.7494371,-1.5"></path>
+                </g>
+            </g>
+            <g id="client-concrete-strategy-arrow" transform="translate(203.000000, 245.000000)" stroke-linecap="square" stroke="#000000" stroke-linejoin="round">
+                <g id="dependency">
+                    <path d="M0.5,5.5 L162.5,5.5" id="Line" stroke-dasharray="4"></path>
+                    <polyline id="Line-2" transform="translate(157.000000, 5.437052) scale(1, -1) translate(-157.000000, -5.437052) " points="151.5 0.374103964 162.5 5.37410396 151.5 10.5"></polyline>
+                </g>
+            </g>
+            <text id="dyclassroom.com" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#D9D9D9">
+                <tspan x="454.261719" y="326">dyclassroom.com</tspan>
+            </text>
+            <text id="Strategy-Pattern" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#000000">
+                <tspan x="28.203125" y="326">Strategy Pattern</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
