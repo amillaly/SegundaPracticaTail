@@ -5,7 +5,9 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Chain of Responsibility',
+
     Svg: require('@site/static/img/respo.svg').default,
+
     description: (
       <>
         Es un patrón de diseño de comportamiento que te permite pasar solicitudes 
@@ -16,7 +18,9 @@ const FeatureList = [
   },
   {
     title: 'Command',
+
     Svg: require('@site/static/img/imasvg.svg').default,
+
     description: (
       <>
        Es un patrón de diseño de comportamiento que convierte una solicitud en un 
@@ -53,6 +57,28 @@ const FeatureList = [
     ),
   },
   {
+
+    title: 'Iterator',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  {
+    title: 'Mediator',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  {
+
     title: 'Memento',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
@@ -64,6 +90,7 @@ const FeatureList = [
   },
   {
     title: 'Observer',
+
     Svg: require('@site/static/img/imgob.svg').default,
     description: (
       <>
@@ -74,11 +101,13 @@ const FeatureList = [
          Aplicabilidad:
          Utiliza el patrón cuando algunos objetos de tu aplicación deban observar a 
          otros, pero sólo durante un tiempo limitado o en casos específicos.
+
       </>
     ),
   },
   {
     title: 'State',
+
     Svg: require('@site/static/img/imastate.svg').default,
     description: (
       <>
@@ -103,6 +132,17 @@ const FeatureList = [
          Aplicabilidad:
          Utiliza el patrón Strategy cuando tengas muchas clases similares que sólo se 
          diferencien en la forma en que ejecutan cierto comportamiento.
+
+      </>
+    ),
+  },{
+    title: 'Strategy',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+
       </>
     ),
   },{
