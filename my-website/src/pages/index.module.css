@@ -17,7 +17,44 @@
 }
 
 .buttons {
-  display: flex;
+  display: center;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
+}
+
+.textContainer {
+  text-align: center; 
+  margin: 20px 0; 
+  width: 100%; 
+  max-width: 600px; 
+}
+
+.cardText {
+  text-align: justify;
+  margin-bottom: 1.5rem; 
+  line-height: 1.6; 
+}
+
+.contentContainer {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 20px; 
+  flex-wrap: wrap;
+}
+
+.textContainer {
+  flex: 1; 
+  max-width: 60%; 
+}
+
+.imageContainer {
+  flex: 1; 
+  max-width: 35%; 
+}
+
+.img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px;
 }
