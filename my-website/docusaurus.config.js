@@ -71,30 +71,53 @@ const config = {
           { to: '/docs/page7', label: 'State', position: 'left' },
           { to: '/docs/page8', label: 'Strategy', position: 'left' },
           { to: '/docs/page9', label: 'Template Method', position: 'left' },
-          { to: '/docs/page10', label: 'Visitor', position: 'left' },
+
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial',
+                to: '/docs/intro',
+              },
+            ],
+          },
           {
             title: 'Community',
             items: [
               {
-                label: 'Pagina Institucional',
-                href: 'https://utsh.edu.mx',
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'SIGE',
-                href: 'http://sige.utsh.edu.mx',
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
               },
-              
+              {
+                label: 'X',
+                href: 'https://x.com/docusaurus',
+              },
             ],
           },
-          
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
+              },
+            ],
+          },
         ],
-        copyright: ` ${new Date().getFullYear()} Universidad Tecnológica de la Sierra HIdalguense.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
