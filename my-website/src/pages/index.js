@@ -39,7 +39,7 @@ function HomepageHeader() {
 
           
           <div className={styles.imageContainer}>
-          <img src="/img/hola.png" alt="image" className={styles.img} />
+          <img src="/img/hola1.jpeg" alt="image" className={styles.img} />
           </div>
 
 
