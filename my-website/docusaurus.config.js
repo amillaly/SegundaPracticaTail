@@ -62,15 +62,7 @@ const config = {
         },
         items: [
           
-          { to: '/docs/chaing', label: 'Chain of Responsibility', position: 'left' },
-          { to: '/docs/command', label: 'Command', position: 'left' },
-          { to: '/docs/page3', label: 'Iterator', position: 'left' },
-          { to: '/docs/page4', label: 'Mediator', position: 'left' },
-          { to: '/docs/page5', label: 'Memento', position: 'left' },
-          { to: '/docs/page6', label: 'Observer', position: 'left' },
-          { to: '/docs/page7', label: 'State', position: 'left' },
-          { to: '/docs/page8', label: 'Strategy', position: 'left' },
-          { to: '/docs/page9', label: 'Template Method', position: 'left' },
+
 
         ],
       },
