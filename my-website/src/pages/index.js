@@ -16,7 +16,7 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        
+
         {/* Contenedor para el texto y la imagen */}
         <div className={styles.contentContainer}>
           <div className={styles.textContainer}>
@@ -41,6 +41,7 @@ function HomepageHeader() {
           <div className={styles.imageContainer}>
           <img src="/img/hola.png" alt="image" className={styles.img} />
           </div>
+
 
 
         </div>
