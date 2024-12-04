@@ -62,39 +62,62 @@ const config = {
         },
         items: [
           
-          { to: '/docs/chaing', label: 'Page 1', position: 'left' },
-          { to: '/docs/command', label: 'Page 2', position: 'left' },
-          { to: '/docs/page3', label: 'Page 3', position: 'left' },
-          { to: '/docs/page4', label: 'Page 4', position: 'left' },
-          { to: '/docs/page5', label: 'Page 5', position: 'left' },
-          { to: '/docs/page6', label: 'Page 6', position: 'left' },
-          { to: '/docs/page7', label: 'Page 7', position: 'left' },
-          { to: '/docs/page8', label: 'Page 8', position: 'left' },
-          { to: '/docs/page9', label: 'Page 9', position: 'left' },
-          { to: '/docs/page10', label: 'Page 10', position: 'left' },
+          { to: '/docs/chaing', label: 'Chain of Responsibility', position: 'left' },
+          { to: '/docs/command', label: 'Command', position: 'left' },
+          { to: '/docs/page3', label: 'Iterator', position: 'left' },
+          { to: '/docs/page4', label: 'Mediator', position: 'left' },
+          { to: '/docs/page5', label: 'Memento', position: 'left' },
+          { to: '/docs/page6', label: 'Observer', position: 'left' },
+          { to: '/docs/page7', label: 'State', position: 'left' },
+          { to: '/docs/page8', label: 'Strategy', position: 'left' },
+          { to: '/docs/page9', label: 'Template Method', position: 'left' },
+
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial',
+                to: '/docs/intro',
+              },
+            ],
+          },
           {
             title: 'Community',
             items: [
               {
-                label: 'Pagina Institucional',
-                href: 'https://utsh.edu.mx',
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'SIGE',
-                href: 'http://sige.utsh.edu.mx',
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
               },
-              
+              {
+                label: 'X',
+                href: 'https://x.com/docusaurus',
+              },
             ],
           },
-          
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
+              },
+            ],
+          },
         ],
-        copyright: ` ${new Date().getFullYear()} Universidad Tecnológica de la Sierra HIdalguense.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
