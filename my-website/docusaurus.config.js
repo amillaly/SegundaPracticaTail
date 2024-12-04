@@ -63,15 +63,7 @@ const config = {
         items: [
           
           { to: '/docs/chaing', label: 'Page 1', position: 'left' },
-          { to: '/docs/command', label: 'Page 2', position: 'left' },
-          { to: '/docs/page3', label: 'Page 3', position: 'left' },
-          { to: '/docs/page4', label: 'Page 4', position: 'left' },
-          { to: '/docs/page5', label: 'Page 5', position: 'left' },
-          { to: '/docs/page6', label: 'Page 6', position: 'left' },
-          { to: '/docs/page7', label: 'Page 7', position: 'left' },
-          { to: '/docs/page8', label: 'Page 8', position: 'left' },
-          { to: '/docs/page9', label: 'Page 9', position: 'left' },
-          { to: '/docs/page10', label: 'Page 10', position: 'left' },
+
         ],
       },
       footer: {
