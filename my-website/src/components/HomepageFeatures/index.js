@@ -63,8 +63,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Diseño de comportamiento que te permite guardar y restaurar el estado
+         previo de un objeto sin revelar los detalles de su implementación.
       </>
     ),
   },
@@ -121,8 +121,11 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Es un patrón de diseño de comportamiento que define el esqueleto de
+         un algoritmo en la superclase pero permite que las subclases sobrescriban 
+         pasos del algoritmo sin cambiar su estructura.
+
+         
       </>
     ),
   },{
@@ -130,8 +133,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Es un patrón de diseño de comportamiento que te permite separar algoritmos
+         de los objetos sobre los que operan.
       </>
     ),
   },
