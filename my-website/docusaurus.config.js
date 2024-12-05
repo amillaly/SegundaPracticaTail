@@ -62,7 +62,7 @@ const config = {
         },
         items: [
           
-          { to: '/docs/chaing', label: 'Curiosidades', position: 'left' },
+          { to: '/docs/chaing', label: 'Acerca de...', position: 'left' },
 
         ],
       },
