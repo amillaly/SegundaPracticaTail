@@ -101,9 +101,7 @@ En este ejemplo, el patrón State permite a los mismos controles del reproductor
 
  - El patrón State te permite extraer ramas de esos condicionales a métodos de las clases estado correspondientes. Al hacerlo, también puedes limpiar campos temporales y métodos de ayuda implicados en código específico del estado de fuera de tu clase principal.
 
- - Utiliza el patrón State cuando tengas mucho código duplicado por estados similares y transiciones de una máquina de estados basada en condiciones.
 
- - El patrón State te permite componer jerarquías de clases de estado y reducir la duplicación, extrayendo el código común y metiéndolo en clases abstractas base.
 
 # *VENTAJAS Y DESVENTAJAS*
 
