@@ -60,7 +60,7 @@ const FeatureList = [
   {
 
     title: 'Memento',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/momento.svg').default,
     description: (
       <>
         Diseño de comportamiento que te permite guardar y restaurar el estado
@@ -118,19 +118,19 @@ const FeatureList = [
     ),
   },{
     title: 'Template Method',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/method (1).svg').default,
     description: (
       <>
         Es un patrón de diseño de comportamiento que define el esqueleto de
          un algoritmo en la superclase pero permite que las subclases sobrescriban 
          pasos del algoritmo sin cambiar su estructura.
 
-         
+
       </>
     ),
   },{
     title: 'Visitor',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/visitor.svg').default,
     description: (
       <>
         Es un patrón de diseño de comportamiento que te permite separar algoritmos
