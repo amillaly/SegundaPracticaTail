@@ -82,7 +82,7 @@ const config = {
 
               },
               {
-                label: 'Jose Armando Jacinto Lopez ',
+                label: 'Jose Armando Jacinto Lopez',
 
               },
             ],
