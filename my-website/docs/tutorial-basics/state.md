@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 ---
-# *STATE*
+# State
 
 **También llamado: Estado**
 

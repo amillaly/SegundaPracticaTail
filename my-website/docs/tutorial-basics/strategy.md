@@ -3,7 +3,7 @@ sidebar_position: 9
 ---
 
 
-# **STRATEGY**
+# Strategy
 **También llamado:** Estrategia
 
 # **PROPÒSITO**
