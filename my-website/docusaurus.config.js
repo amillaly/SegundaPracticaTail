@@ -75,14 +75,15 @@ const config = {
             items: [
               {
                 label: 'Belinda Salas Angeles',
-
+                href:'#',
               },
               {
                 label: 'Leydi Amillaly Flores Mora',
-
+                href:'#',
               },
               {
                 label: 'Jose Armando Jacinto Lopez',
+                href:'#',
 
               },
             ],
