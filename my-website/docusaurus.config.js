@@ -71,17 +71,20 @@ const config = {
         links: [
           
           {
-            title: 'Community',
+            title: 'Integrantes',
             items: [
               {
-                label: 'Pagina Institucional',
-                href: 'https://utsh.edu.mx',
+                label: 'Belinda Salas Angeles',
+
               },
               {
-                label: 'SIGE',
-                href: 'http://sige.utsh.edu.mx',
+                label: 'Leydi Amillaly Flores Mora',
+
               },
-              
+              {
+                label: 'Jose Armando Jacinto Lopez ',
+
+              },
             ],
           },
           
